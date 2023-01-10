@@ -20,4 +20,5 @@ int gcd(int x,int y){
     }else{
         return gcd(y, x%y);
     }
+    return 0;
 }
